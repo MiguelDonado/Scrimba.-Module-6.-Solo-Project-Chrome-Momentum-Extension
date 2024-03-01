@@ -3,7 +3,7 @@ const mediumContainer = document.getElementById('medium-container')
 const bottomContainer = document.getElementById('bottom-container')
 
 //Bored API
-p3 = fetch('http://www.boredapi.com/api/activity/?type=education')
+p3 = fetch('https://www.boredapi.com/api/activity/?type=education')
     .then(response => response.json())
     
 //Random Meal API

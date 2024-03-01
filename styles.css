@@ -1,0 +1,176 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    font-weight: 700;
+}
+
+a:hover, a:active {
+    color: blue;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    min-height: 100%;
+    text-shadow: 0px 0px 20px #242424;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 1400px;
+    gap: 10em;
+ }
+
+
+
+/*=========
+    TOP (Bored, Meal)
+==========*/
+
+.top {
+    margin: 2em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40vh;
+}
+
+    /*==========
+    BORED
+    ============*/
+
+.new-line {
+    padding: 0.5em 0.75em;
+    display: block;
+    text-align: center;
+    margin-top: 0.75em;
+    font-weight: 700;
+    color: white;
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 6px black;
+    border-radius: 5px; 
+}
+
+.bored-paragraph {
+    font-size: 1.75rem;
+    padding: 2em 0;
+    
+}
+
+    /*==========
+    MEAL
+    ============*/
+
+.meal-container {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    gap: 1.5em;
+}
+
+.meal-img {
+    width: 20%;
+    border-radius: 5px;
+    min-width: 190px;
+}
+
+.meal-intro-p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.meal-hightlight {
+    font-weight: bold;
+    color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=============
+MEDIUM (STOIC)
+==============*/
+
+.medium {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}   
+
+.quote-stoic {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0 0 0.5em;  
+}
+
+.author-stoic {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/*===========
+BOTTOM (UNSPLASH /// DOG)
+=============*/
+
+.bottom {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /*============
+        UNSPLASH
+    =============*/
+
+.attribute-unsplash {
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    text-wrap: nowrap;
+}
+
+.location-photo {
+    font-size: 1rem;
+}
+
+    /*==========
+         DOG
+    ===========*/
+
+.dog-fact {
+    margin-left: auto;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background: rgba(0, 0, 0, 0.3); 
+    padding: 0.5em 0.75em;
+    border-radius: 10px;
+}
+
+.dog-fact-highlight {
+    display: block;
+    font-weight: 600;
+}
